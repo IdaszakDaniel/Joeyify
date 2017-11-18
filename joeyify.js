@@ -7,7 +7,6 @@ module.exports = function(text){
   }
 
   const findSynonym = function(mark, el, firstUppercase){
-    console.log(mark, el, firstUppercase);
     let x = synonym(mark, el);
     return firstUppercase ? uppercaseFirstLetter(x) : x;
   }
@@ -37,7 +36,6 @@ module.exports = function(text){
         .map(function(el) {
           let firstUppercase = checkFirstLetter(el)
           if(firstUppercase) el = lowercaseFirstLetter(el);
-          console.log(1,el);
           if(el.includes('.')) return findSynonym('.', el, firstUppercase);
           if(el.includes(',')) return findSynonym(',', el, firstUppercase);
           return findSynonymWithoutMark(el, firstUppercase);

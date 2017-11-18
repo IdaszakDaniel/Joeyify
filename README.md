@@ -3,7 +3,10 @@ Joeyify
 =========
 
 *Unreliable automatic thesaurus inspired by "Friends" Joey Tribbiani writing skills*
-![alt text](https://i.pinimg.com/originals/8f/8b/b7/8f8bb7fde1f3c47fd53893e8c68ddf42.jpg)
+
+<p align="center">
+  <img src="https://i.pinimg.com/originals/8f/8b/b7/8f8bb7fde1f3c47fd53893e8c68ddf42.jpg" alt="Sublime's custom image"/>
+</p>
 
 Joeify uses node-thesaurus library https://github.com/daizoru/node-thesaurus
 
