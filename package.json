@@ -18,9 +18,11 @@
   ],
   "author": "Daniel Idaszak (idaszak.com)",
   "license": "MIT",
+  "dependencies": {
+    "thesaurus": "0.0.0"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "thesaurus": "0.0.0"
+    "mocha": "^4.0.1"
   }
 }

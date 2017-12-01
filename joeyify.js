@@ -34,7 +34,7 @@ module.exports = function(text){
   return text
         .split(' ')
         .map(function(el) {
-          let firstUppercase = checkFirstLetter(el)
+          let firstUppercase = checkFirstLetter(el);
           if(firstUppercase) el = lowercaseFirstLetter(el);
           if(el.includes('.')) return findSynonym('.', el, firstUppercase);
           if(el.includes(',')) return findSynonym(',', el, firstUppercase);
